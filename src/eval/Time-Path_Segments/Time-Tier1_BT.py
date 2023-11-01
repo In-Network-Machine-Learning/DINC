@@ -86,4 +86,4 @@ ax2.legend(f_line, f_lable, fancybox=True, fontsize=fsize-8,loc = "upper left", 
 
 plt.grid(which ='major',linestyle= ':') #'major', 'minor' ， 'both'
 plt.savefig('../figures/Time-Tier1_BT.pdf',dpi=600,format='pdf', bbox_inches='tight')
-# plt.show()  
+# plt.show()
