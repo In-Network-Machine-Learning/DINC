@@ -11,6 +11,7 @@ All figures (Figure 12-
 
 
 ##Important Configurations:
+
 For most of unmentioned configurations, please use the default option. 
 
 * **Topology**: Please use ```BT-ASP``` and ```Folded-Clos-ASP``` for evaluation. When slecting BT topology, please select ```False``` in _display plot_. When select Clos topology, apply switch number```3```, ```6```, and ```24``` in each layer.
