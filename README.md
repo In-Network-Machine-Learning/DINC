@@ -48,7 +48,7 @@ The following figure gives a general outlook of how P4 programs are  sliced in t
 
 ## DINC's Availability
 
-If you're interested in this work and find anything unclear, please feel free to contact me at ```changgang.zheng@eng.ox.ac.uk```. **_We are welcoming collaborations._** It can be exciting to collaborate, if you think in-network machine learning is helpful to your research or use case. If there are any potential interests, please feel free to contact my supervisor ```noa.zilberman@eng.ox.ac.uk``` and me ```changgang.zheng@eng.ox.ac.uk```.
+If you're interested in this work and find anything unclear, please feel free to contact me at ```changgang.zheng@eng.ox.ac.uk```. **_We are welcoming collaborations._** It can be exciting to collaborate, if you think in-network machine learning is helpful to your research or use case. If there are any potential interests, please feel free to contact PI ```noa.zilberman@eng.ox.ac.uk``` and project lead ```changgang.zheng@eng.ox.ac.uk```.
 
 ## License
 
