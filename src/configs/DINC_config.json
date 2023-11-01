@@ -1,0 +1,112 @@
+{
+    "directory config": {
+        "work": "/home/jesu3779/Documents/GitHub/DINC",
+        "log plot file name": "Fat-Tree_3depth_2branch.pdf",
+        "p4 file": "./src/sample/Planter_DT/DT_performance_Iris.p4",
+        "BMv2": "/home/jesu3779/mysde/behavioral-model-1.15.0"
+    },
+    "network config": {
+        "topology": "Fat-Tree",
+        "n_depth": 3,
+        "n_branch": 2,
+        "input device list": [
+            2,
+            3,
+            5,
+            6
+        ],
+        "output device list": [
+            0
+        ],
+        "resources list": [
+            "stage",
+            "memory"
+        ],
+        "stage": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "memory": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "architectures": [
+            "v1model",
+            "v1model",
+            "v1model",
+            "v1model",
+            "v1model",
+            "v1model",
+            "v1model"
+        ],
+        "use cases": [
+            "standard_block",
+            "standard_block",
+            "standard_block",
+            "standard_block",
+            "standard_block",
+            "standard_block",
+            "standard_block"
+        ],
+        "targets": [
+            "bmv2",
+            "bmv2",
+            "bmv2",
+            "bmv2",
+            "bmv2",
+            "bmv2",
+            "bmv2"
+        ]
+    },
+    "operation config": {
+        "display plot": false,
+        "test ILP": false
+    },
+    "p4 config": {
+        "slicing method": "Manually",
+        "start marker": "@!",
+        "end marker": "!@",
+        "key element info": [
+            "slice",
+            "position"
+        ],
+        "existed sliced p4 file": [
+            "/home/jesu3779/Documents/GitHub/DINC/src/temp/P4/E0_control.p4",
+            "/home/jesu3779/Documents/GitHub/DINC/src/temp/P4/E1_control.p4",
+            "/home/jesu3779/Documents/GitHub/DINC/src/temp/P4/E2_control.p4",
+            "/home/jesu3779/Documents/GitHub/DINC/src/temp/P4/E0_control-apply.p4",
+            "/home/jesu3779/Documents/GitHub/DINC/src/temp/P4/E1_control-apply.p4",
+            "/home/jesu3779/Documents/GitHub/DINC/src/temp/P4/E2_control-apply.p4"
+        ],
+        "stage": [
+            5,
+            5,
+            5
+        ],
+        "memory": [
+            5,
+            5,
+            5
+        ],
+        "generator": "exact",
+        "begin test": "T"
+    },
+    "solver config": {
+        "solver type": "ILP",
+        "solver variation": "Type_1"
+    },
+    "test config": {
+        "if test": "Y",
+        "targets": "BMv2"
+    }
+}

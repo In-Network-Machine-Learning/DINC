@@ -1,0 +1,154 @@
+{
+    "directory config": {
+        "work": "/home/jesu3779/Documents/DINC/DINC_OSR_1.1",
+        "log plot file name": "Folded-Clos-ASP_3core_6aggregation_24access.pdf",
+        "p4 file": "./src/sample/Planter_XGB/XGB_performance_UNSW_5_tuple_4.p4"
+    },
+    "network config": {
+        "topology": "Folded-Clos-ASP",
+        "n_core": 3,
+        "n_aggregation": 6,
+        "n_access": 24,
+        "input device list": [
+            0,
+            1,
+            2
+        ],
+        "output device list": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "resources list": [
+            "stage",
+            "memory"
+        ],
+        "stage": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "memory": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ]
+    },
+    "operation config": {
+        "display plot": false,
+        "test ILP": "True",
+        "test details": "True"
+    },
+    "p4 config": {
+        "slicing method": "Manually",
+        "start marker": "@!",
+        "end marker": "!@",
+        "key element info": [
+            "slice",
+            "position"
+        ],
+        "existed sliced p4 file": [
+            "/home/jesu3779/Documents/DINC/DINC_OSR_1.1/src/temp/P4/E0_control-apply.p4",
+            "/home/jesu3779/Documents/DINC/DINC_OSR_1.1/src/temp/P4/E1_control-apply.p4",
+            "/home/jesu3779/Documents/DINC/DINC_OSR_1.1/src/temp/P4/E2_control-apply.p4",
+            "/home/jesu3779/Documents/DINC/DINC_OSR_1.1/src/temp/P4/E3_control-apply.p4"
+        ],
+        "stage": [
+            1,
+            2,
+            2,
+            1
+        ],
+        "memory": [
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "solver config": {
+        "solver type": "ILP",
+        "solver variation": "Type_1"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "directory config": {
+        "work": "/home/p4/DINC_oct",
+        "log plot file name": "Folded-Clos_3core_6aggregation_24access.pdf",
+        "p4 file": "./src/sample/PINT/pint_sliced.p4"
+    },
+    "network config": {
+        "topology": "Folded-Clos",
+        "n_core": 3,
+        "n_aggregation": 6,
+        "n_access": 24,
+        "input device list": [
+            0,
+            1,
+            2
+        ],
+        "output device list": [
+            9
+        ],
+        "resources list": [
+            "stage",
+            "memory"
+        ],
+        "stage": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "memory": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ]
+    },
+    "operation config": {
+        "display plot": false,
+        "test ILP": "True",
+        "test details": false
+    },
+    "p4 config": {
+        "slicing method": "Manually",
+        "start marker": "@!",
+        "end marker": "!@",
+        "key element info": [
+            "slice",
+            "position"
+        ],
+        "existed sliced p4 file": [
+            "/home/p4/DINC_oct/src/temp/P4/E0_control.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E1_control.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E2_control.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E3_control.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E0_control-apply.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E1_control-apply.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E2_control-apply.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E3_control-apply.p4",
+            "/home/p4/DINC_oct/src/temp/P4/E4_control-apply.p4"
+        ],
+        "stage": [
+            1,
+            1,
+            5,
+            3,
+            1
+        ],
+        "memory": [
+            1,
+            1,
+            5,
+            3,
+            1
+        ]
+    },
+    "solver config": {
+        "solver type": "ILP",
+        "solver variation": "Type_1"
+    }
+}

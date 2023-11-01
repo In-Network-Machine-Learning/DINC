@@ -1,0 +1,4 @@
+table_add SwitchIngress.ipv4_lpm SwitchIngress.ipv4_forward 10.0.0.254/32 => c8:00:00:00:02:0c 1
+table_add SwitchIngress.ipv4_lpm SwitchIngress.ipv4_forward 10.0.0.4/32 => c8:00:00:00:02:0c 1
+table_add SwitchIngress.ipv4_lpm SwitchIngress.ipv4_forward 10.0.0.5/32 => c8:00:00:00:02:0c 1
+table_add SwitchIngress.ipv4_lpm SwitchIngress.ipv4_forward 10.0.0.7/32 => c8:00:00:00:02:0c 1
