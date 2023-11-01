@@ -31,7 +31,7 @@ plt.yticks([1,10,100,1000] ,fontsize=fsize-1)
 plt.xticks(x, labels=['Clos', 'BT'], fontsize=fsize-1)
 # plt.ylim(0.2,5000)
 plt.ylim(0.1,10000)
-plt.xlim(1.4,3.6)  # 设置横坐标刻度为给定的年份
+plt.xlim(1.4,3.6)
 leg = plt.legend(loc='lower center', fontsize=fsize-8)
 plt.grid(which ='major',linestyle= ':', axis="y") #'major', 'minor'， 'both'
 plt.savefig('../figures/DINC_Flightplan_Dup.pdf',dpi=600,format='pdf', bbox_inches='tight')

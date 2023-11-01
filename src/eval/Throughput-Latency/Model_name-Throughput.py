@@ -47,7 +47,7 @@ plt.bar([5],[switch] , width= width, label='Standalone RARE', color="silver",lin
 
 # plt.grid(True) #'major', 'minor'， 'both'
 
-# plt.xlabel('Model', fontsize=fsize) # 设置横坐标轴标题
+# plt.xlabel('Model', fontsize=fsize)
 plt.ylabel('Throughput', fontsize=fsize-1)
 # plt.yscale('log')
 plt.yticks([1.5,3,4.5,6], fontsize=fsize-1)

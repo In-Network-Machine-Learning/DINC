@@ -33,7 +33,7 @@ plt.yticks([100,1000,10000,100000] ,fontsize=fsize-1)
 plt.xticks(x, labels=['Node 1', 'Node 2'], fontsize=fsize-1)
 
 plt.ylim(10,1000000)
-plt.xlim(1.4,3.6)  # 设置横坐标刻度为给定的年份
+plt.xlim(1.4,3.6)
 #leg = plt.legend(loc='lower center', fontsize=fsize-8, handlelength=1)
 leg = plt.legend(loc='lower center', fontsize=fsize-8)
 plt.grid(which ='major',linestyle= ':', axis="y") #'major', 'minor'， 'both'

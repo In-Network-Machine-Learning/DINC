@@ -33,7 +33,7 @@ plt.yticks([9,10,11,12] ,fontsize=fsize-1)
 plt.xticks(x, labels=['Node 1', 'Node 2'], fontsize=fsize-1)
 # plt.ylim(0,1)
 plt.ylim(8,13)
-plt.xlim(1.4,3.6)  # 设置横坐标刻度为给定的年份
+plt.xlim(1.4,3.6)
 leg = plt.legend(loc='lower center', fontsize=fsize-8, handlelength=1)
 plt.grid(which ='major',linestyle= ':', axis="y") #'major', 'minor'， 'both'
 plt.savefig('../figures/Split_stage_with_switch_p4.pdf',dpi=600,format='pdf', bbox_inches='tight')

@@ -81,7 +81,7 @@ fsize =25
 
 # plt.grid(True) #'major', 'minor'， 'both'
 
-# plt.xlabel('Model', fontsize=fsize) # 设置横坐标轴标题
+# plt.xlabel('Model', fontsize=fsize)
 plt.ylabel('R-Latency (%)', fontsize=fsize)
 # plt.yscale('log')
 plt.yticks([15,30,45,60], fontsize=fsize-1)

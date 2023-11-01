@@ -12,7 +12,7 @@ mes = 1
 lw=2
 
 
-# 输入纵坐标轴数据与横坐标轴数据
+
 
 model = ['1', '2', '3', '4', '5']
 x = [1,2,3,4,5]
@@ -48,25 +48,25 @@ l1 = ax2.plot(x,  path, '--', label='Paths', marker = 's', ms=ms, markeredgecolo
 
 
 fsize+=2
-plt.xlabel('Model', fontsize=fsize+1) # 设置横坐标轴标题
-ax1.set_xticks(x) # 设置横坐标刻度为给定的年份
+plt.xlabel('Model', fontsize=fsize+1)
+ax1.set_xticks(x)
 ax1.set_xticklabels(labels=model,rotation=-0, fontsize=fsize+1)
-ax1.set_xlabel('Num of Edge Nodes', fontsize=fsize+1) # 设置横坐标轴标题
+ax1.set_xlabel('Num of Edge Nodes', fontsize=fsize+1)
 
 ax1.set_yscale('log')
-ax1.set_ylabel('Time (s)', fontsize=fsize+1) # 设置横坐标轴标题
-ax1.set_yticks([10**-3,10**-2,10**-1,10**0]) # 设置横坐标刻度为给定的年份
-ax1.set_yticklabels(labels=['10$^{-3}$','10$^{-2}$','10$^{-1}$','10$^{-0}$'], fontsize=fsize+1) # 设置横坐标刻度为给定的年份
-ax1.set_ylim(10**-4,10**1)  # 设置横坐标刻度为给定的年份
+ax1.set_ylabel('Time (s)', fontsize=fsize+1)
+ax1.set_yticks([10**-3,10**-2,10**-1,10**0])
+ax1.set_yticklabels(labels=['10$^{-3}$','10$^{-2}$','10$^{-1}$','10$^{-0}$'], fontsize=fsize+1)
+ax1.set_ylim(10**-4,10**1)
 
 
-ax2.set_ylabel('Paths', fontsize=fsize+1) # 设置横坐标轴标题
-ax2.set_yticks([50,100,150,200]) # 设置横坐标刻度为给定的年份
-ax2.set_yticklabels(labels=['30','50','70','90'], fontsize=fsize+1) # 设置横坐标刻度为给定的年份
-ax2.set_ylim(0,250)  # 设置横坐标刻度为给定的年份
+ax2.set_ylabel('Paths', fontsize=fsize+1)
+ax2.set_yticks([50,100,150,200])
+ax2.set_yticklabels(labels=['30','50','70','90'], fontsize=fsize+1)
+ax2.set_ylim(0,250)
 
 
-plt.xlim(0.3,5.7)  # 设置横坐标刻度为给定的年份
+plt.xlim(0.3,5.7)
 
 
 lines, labels = ax1.get_legend_handles_labels()
@@ -85,4 +85,4 @@ ax2.legend(f_line, f_lable, fancybox=True, fontsize=fsize-8,loc = "upper left", 
 
 plt.grid(which ='major',  linestyle= ':') #'major', 'minor' ， 'both'
 plt.savefig('../figures/Time-Edge_clos.pdf',dpi=600,format='pdf', bbox_inches='tight')
-# plt.show() # 显示图形
+# plt.show()

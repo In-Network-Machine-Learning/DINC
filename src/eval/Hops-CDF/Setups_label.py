@@ -43,15 +43,15 @@ plt.step(x5, y5, marker = '^',color="dodgerblue",linewidth = lw , ms=ms, markere
 
 
 
-plt.xlabel('Number of Hops', fontsize=fsize)  # 设置横坐标轴标题
-plt.ylabel('CDF Percent (%)', fontsize=fsize)  # 设置横坐标轴标题
+plt.xlabel('Number of Hops', fontsize=fsize)
+plt.ylabel('CDF Percent (%)', fontsize=fsize)
 
 
 
-plt.yticks([ 0,30,60,90],   fontsize=fsize-1)  # 设置横坐标刻度为给定的年份
-plt.xticks([1,2,3,4,5], fontsize=fsize-1)  # 设置横坐标刻度为给定的年份
-plt.ylim(-15,115)  # 设置横坐标刻度为给定的年份
-plt.xlim(0.5,5.5)  # 设置横坐标刻度为给定的年份
+plt.yticks([ 0,30,60,90],   fontsize=fsize-1)
+plt.xticks([1,2,3,4,5], fontsize=fsize-1)
+plt.ylim(-15,115)
+plt.xlim(0.5,5.5)
 plt.legend(bbox_to_anchor=(1.05, 0), loc=3,ncol=5, labelspacing=0.4,columnspacing=0.4, borderaxespad=0, fontsize=fsize-8)
 plt.grid(which ='major',linestyle= ':') #'major', 'minor' ， 'both'
 plt.savefig('../figures/Setups_label.pdf',dpi=600,format='pdf', bbox_inches='tight')

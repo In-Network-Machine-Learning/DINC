@@ -12,7 +12,7 @@ mes = 1
 lw=2
 
 
-# 输入纵坐标轴数据与横坐标轴数据
+
 
 # model = ['-2', '-1', '0', '1', '2']
 # x = [-2, -1, 0, 1, 2]
@@ -47,25 +47,25 @@ l1 = ax2.plot(x,  segment, '--', label='Segments', marker = 's', ms=ms, markered
 
 
 fsize+=2
-plt.xlabel('Model', fontsize=fsize+1) # 设置横坐标轴标题
-ax1.set_xticks(x) # 设置横坐标刻度为给定的年份
+plt.xlabel('Model', fontsize=fsize+1)
+ax1.set_xticks(x)
 ax1.set_xticklabels(labels=model,rotation=-0, fontsize=fsize+1)
-ax1.set_xlabel('Relative Weight', fontsize=fsize+1) # 设置横坐标轴标题
+ax1.set_xlabel('Relative Weight', fontsize=fsize+1)
 
 # ax1.set_yscale('log')
-ax1.set_ylabel('Hops (s)', fontsize=fsize+1) # 设置横坐标轴标题
-ax1.set_yticks([1,2,3,4]) # 设置横坐标刻度为给定的年份
-ax1.set_yticklabels(labels=['1','2','3','4'], fontsize=fsize+1) # 设置横坐标刻度为给定的年份
-ax1.set_ylim(0,5)  # 设置横坐标刻度为给定的年份
+ax1.set_ylabel('Hops (s)', fontsize=fsize+1)
+ax1.set_yticks([1,2,3,4])
+ax1.set_yticklabels(labels=['1','2','3','4'], fontsize=fsize+1)
+ax1.set_ylim(0,5)
 
 
-ax2.set_ylabel('Segments', fontsize=fsize+1) # 设置横坐标轴标题
-ax2.set_yticks([450,700,950,1200]) # 设置横坐标刻度为给定的年份
-ax2.set_yticklabels(labels=['450','700','950', '1.2k'], fontsize=fsize+1) # 设置横坐标刻度为给定的年份
-ax2.set_ylim(200,1450)  # 设置横坐标刻度为给定的年份
+ax2.set_ylabel('Segments', fontsize=fsize+1)
+ax2.set_yticks([450,700,950,1200])
+ax2.set_yticklabels(labels=['450','700','950', '1.2k'], fontsize=fsize+1)
+ax2.set_ylim(200,1450)
 
 
-plt.xlim(0.3, 5.7)  # 设置横坐标刻度为给定的年份
+plt.xlim(0.3, 5.7)
 
 
 lines, labels = ax1.get_legend_handles_labels()
@@ -84,4 +84,4 @@ ax2.legend(f_line, f_lable, fancybox=True, fontsize=fsize-8,loc = "upper right",
 
 plt.grid(which ='major',linestyle= ':') #'major', 'minor' ， 'both'
 plt.savefig('../figures/Coefficent-hops_BT.pdf',dpi=600,format='pdf', bbox_inches='tight')
-# plt.show() # 显示图形
+# plt.show()
