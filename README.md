@@ -4,7 +4,7 @@
 ![GitHub release](https://img.shields.io/badge/pre--release%20tag-v0.0.0-orange)
 
 ## Introducing DINC
- DINC is a framework to provide automating distributed in-network computing service. 
+DINC is a framework to provide automating distributed in-network computing services. This repo is the artifact for the paper "DINC: Toward Distributed In-Network Computing" [PDF](./src/help/Zheng_et_al_2023_DINC_toward_distributed.pdf) in ACM CoNEXT '23.
  
 ## Setting up the DINC environment <span id = "environment"></span>
 
@@ -55,6 +55,18 @@ If you're interested in this work and find anything unclear, please feel free to
 The files are licensed under Apache License: [LICENSE](./LICENSE). The text of the license can also be found in the LICENSE file.
 
 ## Citation
+```
+@article{zheng2023dinc,
+  title={DINC: Toward Distributed In-Network Computing},
+  author={Zheng, Changgang and Tang, Haoyue and Zang, Mingyuan and Hong, Xinpeng and Feng, Aosong and Tassiulas, Leandros and Zilberman, Noa},
+  journal={Proceedings of the ACM on Networking},
+  volume={1},
+  number={CoNEXT3},
+  pages={1--25},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+```
 
 We are also excited to introduce several DINC related papers ([Planter](https://arxiv.org/pdf/2205.08824.pdf), [Planter poster](https://dl.acm.org/doi/10.1145/3472716.3472846), [IIsy](https://arxiv.org/pdf/2205.08243.pdf), [Linnet](https://changgang-zheng.github.io/Home-Page/papers/Linnet%20Limit%20Order%20Books%20Within%20Switches.pdf), and [P4Pir](https://changgang-zheng.github.io/Home-Page/papers/P4Pir%20In-Network%20Analysis%20for%20Smart%20IoT%20Gateways.pdf)): 
 
