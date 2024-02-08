@@ -109,3 +109,14 @@ We are also excited to introduce several DINC related papers ([Planter](https://
 ```
 
 Planter builds upon [IIsy](https://github.com/cucl-srg/IIsy) and is further inspired by [SwitchTree](https://github.com/ksingh25/SwitchTree), [Qin](https://github.com/vxxx03/IFIPNetworking20), and [Clustreams](https://dl.acm.org/doi/pdf/10.1145/3482898.3483356).
+
+
+## Acknowledgments 
+This paper complies with all applicable
+ethical standards of the authors’ home institution. This work
+was partly funded by VMware, EU Horizon SMARTEDGE
+(101092908, UKRI 10056403), Leverhulme Trust (ECF-2016-
+289) and Isaac Newton Trust. We acknowledge support from
+Intel. For the purpose of Open Access, the author has applied
+a CC BY public copyright license to any Author Accepted
+Manuscript (AAM) version arising from this submission.
