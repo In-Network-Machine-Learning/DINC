@@ -8,7 +8,7 @@ DINC is a framework to provide automating distributed in-network computing servi
  
 ## Setting up the DINC environment <span id = "environment"></span>
 
-DINC requires python 3.10 or above, with the packages listed in [requirements\_Python3\_10\_8.txt](./src/configs/requirements_Python3_10_8.txt). To install the aforementioned packages, start your working environment and execute the following command:
+DINC requires Python 3.10 or above, with the packages listed in [requirements\_Python3\_10\_8.txt](./src/configs/requirements_Python3_10_8.txt). To install the aforementioned packages, start your working environment and execute the following command:
 
 ```
 pip3 install -r ./src/configs/requirements_Python3_10_8.txt
@@ -27,7 +27,7 @@ python3 DINC.py -m -d <directory>
 💡 A detailed getting started tutorial [Link: "Please click me!"](./src/help/Sample_Tutorial/DINC_Tutorial.md) (**Strongly Recommended**). 
 
 ## DINC Supports
-DINC supports a wide range of modules mainly including modular Topologies, Architectures, and Usecases:
+DINC supports a wide range of modules, mainly including modular Topologies, Architectures, and Use Cases:
 
 - DINC Supported Topologies [wiki](./src/help/DINC_Supports/DINC_Supported_Topologies.md) 
 - DINC Supported Architectures [wiki](./src/help/DINC_Supports/DINC_Supported_Architectures.md) 
