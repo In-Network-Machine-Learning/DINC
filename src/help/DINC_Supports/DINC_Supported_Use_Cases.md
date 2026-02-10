@@ -1,15 +1,15 @@
 # DINC Supports
 ![DINC Logo](../../images/logo.png)
 <aside>
-💡 A guide to DINC supported use cases.
+💡 A guide to DINC-supported use cases.
 
 </aside>
 
 
 ## Supported use cases 
-DINC currently support three use cases. Hot use cases are marked with 🔥.
+DINC currently supports three use cases. Hot use cases are marked with 🔥.
 
-**1. Standard Block 🔥** [Folder](../../use_cases/standard_block) - This use case is for functionality verification. In this case, the switching functionality will be simple ipv4 forwarding table.
+**1. Standard Block 🔥** [Folder](../../use_cases/standard_block) - This use case is for functionality verification. In this case, the switching functionality will be simple IPv4 forwarding table.
 
 **2. switch.p4** - This use case is for functionality verification. In this case, the distributed segmentations will coexist with an L2/L3 reference designed by Intel Tofino.
 
